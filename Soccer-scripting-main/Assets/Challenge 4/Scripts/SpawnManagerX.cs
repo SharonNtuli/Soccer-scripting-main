@@ -18,7 +18,7 @@ public class SpawnManagerX : MonoBehaviour
 
     public GameObject player; 
 
-    // Update is called once per frame
+    // Update is called once per frame//////
     void Update()
     {
         enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
